@@ -1,0 +1,36 @@
+  p {
+    margin-bottom: 0px;
+  }
+  
+  .icons {
+    font-size: 14px;
+    margin-top: 19px;
+    font-weight: bold;
+    color: rgb(58, 94, 58);
+  }
+  
+  /* To horizontally align the text with icon */
+  @media (max-width: 768px) {
+    .icons {
+      margin-top: 0px;
+      padding-left: 1rem;
+    }
+  }
+  
+  #menu{
+    display:none;
+  }
+  /* To hide the Menu icon */
+  @media(max-width:768px){
+    #menu{
+      display:block;
+    }
+}
+/* To hide the Button when collapsed */
+@media(max-width:450px){
+    .btn{
+        display:none;
+    }
+}
+  
+  
